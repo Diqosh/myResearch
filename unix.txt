@@ -1,0 +1,24 @@
+2.Navigation
+
+pwd  	(print working directory — вывести рабочий каталог)
+cd 	(go inside directory)
+	cd  Сменить рабочий каталог на домашний
+	
+3.Reseach system
+	
+ls	(list files of current directory)
+	-a (list with hidden files)
+	-pathname (list of files in {pathname} directory)
+		can be multiple => ls pathname1 -pathname2
+	-l (long format data)
+		first character
+			if (char == -) item is file
+			if (char == d) item is directory
+		other characters will described later
+	-t (sort by time)
+	--reverse (reverse list)
+	
+file	(print type of file)
+less 	(overview file text type)
+
+4.Operation with files and directories

@@ -1,0 +1,5 @@
+git rm (delete file both => pc and repo)
+	--cached delete only repo
+
+git mv oldname newname (rename file on git)
+
