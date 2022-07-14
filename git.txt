@@ -1,6 +1,12 @@
-git rm (delete file both => pc and repo)
-	--cached delete only repo
+git rm <file>(delete file both => pc and repo)
+	--cached  delete only repo
 
 git mv oldname newname (rename file on git)
-git show (print last commit)s
+
+git show (print last commit)
+
+git reset
+  --hard          (удалить все staged и unstaged файлы)
+  --hard <commit> (удалить и на репо и на локалке до этого коммита)
+  --soft <commit> (удалить на репа до этого коммита)
 
