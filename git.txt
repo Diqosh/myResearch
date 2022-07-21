@@ -15,12 +15,16 @@ git revert <commit> (добавить еще комит но сделать вс
 git branch  <branch> (add new branch)
 git branch -m <oldname> <newname> rename branch
 git branch -l (list of branches)
-git branch -d (delete branch locally)
+git branch --delete (delete branch locally) ? -D
+
+git push --delete origin <branch> (delete branch on repo)
 
 git checkout <branch> (switch to branch)
 git checkout -b <branch> (add new branch and switch)
 
 git remote (list of servers)
 git remote -v (list of server with links)
+
+git fetch (download all remote branches)
 8
 
