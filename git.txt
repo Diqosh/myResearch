@@ -7,6 +7,6 @@ git show (print last commit)
 
 git reset
   --hard          (удалить все staged и unstaged файлы)
-  --hard <commit> (удалить и на репо и на локалке до этого коммита)
-  --soft <commit> (удалить на репа до этого коммита)
+  --hard <commit> (удалить до этого коммита)
+  --soft <commit> (удалить до этого коммита оставив локально файлы)
 
