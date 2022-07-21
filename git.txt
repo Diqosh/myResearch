@@ -11,5 +11,11 @@ git reset
   --soft <commit> (удалить до этого коммита оставив локально файлы)
 
 git revert <commit> (добавить еще комит но сделать все ноаборот предыдущего комита)
+
+git branch  <branch> (add new branch)
+git checkout <branch> (switch to branch)
+git checkout -b <branch> (add new branch and switch)
+
+
 8
 test
