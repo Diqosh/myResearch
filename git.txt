@@ -1,5 +1,5 @@
-git rm <file>(delete file both => pc and repo)
-	--cached  delete only repo
+git rm <file>( remove tracked files from the Git index)
+	--cached  delete but save locally
 
 git mv oldname newname (rename file on git)
 
