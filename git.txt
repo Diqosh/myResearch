@@ -26,5 +26,10 @@ git remote (list of servers)
 git remote -v (list of server with links)
 
 git fetch (download all remote branches)
-8
+
+git merge <branch1>  (merge branch1 to current branch )
+git merge --continue (resolve conflict)
+git merge --abort    (cancel merging)
+
+9
 
