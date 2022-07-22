@@ -41,5 +41,9 @@ git stash                (stash staged and unstaged, but not stages new files wi
 
 
 git blame <file> (show who and when wrote code on file)
-9
+
+git gc <clear garbage>
+
+create repo with ssh
+10
 
