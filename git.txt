@@ -31,5 +31,12 @@ git merge <branch1>  (merge branch1 to current branch )
 git merge --continue (resolve conflict)
 git merge --abort    (cancel merging)
 
+git stash                (stash staged and unstaged, but not stages new files wich not staged and ignored files)
+          -u             (stash also untracked files)
+          -a             (also untracked and ingored files)
+          save "message" (stash with message)
+          pop            (reuse stashed history)
+          list           (list stash history)
+          branch stash@{n} (create new branch with stash)
 9
 
