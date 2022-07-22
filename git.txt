@@ -38,5 +38,8 @@ git stash                (stash staged and unstaged, but not stages new files wi
           pop            (reuse stashed history)
           list           (list stash history)
           branch stash@{n} (create new branch with stash)
+
+
+git blame <file> (show who and when wrote code on file)
 9
 
