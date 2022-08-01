@@ -44,6 +44,8 @@ git blame <file> (show who and when wrote code on file)
 
 git gc <clear garbage>
 
+git branch | grep -v "develop" | grep -v "master" | xargs git branch -D delete all local branches except dev and  master
+
 create repo with ssh
 10
 

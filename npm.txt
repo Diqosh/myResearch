@@ -1,0 +1,31 @@
+
+package.json only my downloaded packages 
+package-lock.json all dependecies of downloaded packages
+
+major.minor.patch
+patch = litle changes fix issues
+minor = can work past version
+
+
+^<version>  can update latest minor and patch version
+~<version>  can update patch version
+*           can update major version
+
+npm init                      (initialize package.json)
+	 --yes                 (initialize package.json with defualt value)
+    search || s "<packages>"  (list of packages with short description and other fielgs)
+    view <package>            (review description of package)
+    		    versions   (versions of package)
+    repo <package> 	       (open github of package)
+    home <package> 	       (open home site of package)
+    install || i <packages>        (install package)
+    		       -D || --save-dev  (install to dev dependencies)
+    		       -g                 (install package global)
+    		       --production       (install packages, but not dev)
+    list                      (list packages)
+    	 --depth=n             (list of packages on n level)
+    	 
+   r || remove || un ||uninstall (remove package)
+   up 				(update all packages)
+      <package>                (update this package)
+   
